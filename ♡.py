@@ -176,19 +176,22 @@ while True:
     #dates length are 10 symbols
     #times length are 8 symbols
 
-    zeroline =       'ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ   Прошло времени:'+'\n'
-    firstline =      'ღ Начало наших отношений (дата)     = '+startingpointdate+     '  ღ   '+'\n'
-    secondline =     'ღ Начало наших отношений (время)    = '+startingpointtime+'  '+'  ღ   '+'Года    = '+totaltwyears+'\n'
-    thirdline =      'ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ '+       'ღ ღ   '+'Месяца  = '+totaltwmonths+'\n'
-    fourthline =     'ღ Прошло времени (дата)             = '+timewasteddate+        '  ღ   '+'Дни     = '+totaltwdays+'\n'
-    fifthline =      'ღ Прошло времени (время)            = '+timewastedtime+   '  '+'  ღ   '+'Часы    = '+totaltwhours+'\n'
-    sixthline =      'ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ '+       'ღ ღ   '+'Минуты  = '+totaltwminutes+'\n'
-    seventhline =    'ღ Время сейчас (дата)               = '+datenow+               '  ღ   '+'Секунды = '+totaltwseconds+'\n'
-    eighthline =     'ღ Время сейчас (время)              = '+timenow+          '  '+'  ღ   '+'\n'
-    ninethline =     'ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ ღ   Люблю тебя, Нозия ^^'+'\n'
+    zeroline =       '♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡   Прошло времени:'+'\n'
+    firstline =      '♡ Начало наших отношений (дата)     = '+startingpointdate+     '  ♡   '+'\n'
+    secondline =     '♡ Начало наших отношений (время)    = '+startingpointtime+'  '+'  ♡   '+'Года    = '+totaltwyears+'\n'
+    thirdline =      '♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ '+       '♡ ♡   '+'Месяца  = '+totaltwmonths+'\n'
+    fourthline =     '♡ Прошло времени (дата)             = '+timewasteddate+        '  ♡   '+'Дни     = '+totaltwdays+'\n'
+    fifthline =      '♡ Прошло времени (время)            = '+timewastedtime+   '  '+'  ♡   '+'Часы    = '+totaltwhours+'\n'
+    sixthline =      '♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ '+       '♡ ♡   '+'Минуты  = '+totaltwminutes+'\n'
+    seventhline =    '♡ Время сейчас (дата)               = '+datenow+               '  ♡   '+'Секунды = '+totaltwseconds+'\n'
+    eighthline =     '♡ Время сейчас (время)              = '+timenow+          '  '+'  ♡   '+'\n'
+    ninethline =     '♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡    '+'\n\n'
     
 
-    allinfomessage = zeroline+firstline+secondline+thirdline+fourthline+fifthline+sixthline+seventhline+eighthline+ninethline
+    allinfomessage = zeroline+firstline+secondline+thirdline+fourthline+fifthline+sixthline+seventhline+eighthline+ninethline+(
+    'Все закончилось 09.12.2025\n'+
+    'А я всегда думал это она навсегда.\n'+
+    'Она оставила меня.')
 
  
     time2 = time.perf_counter_ns() - time1
